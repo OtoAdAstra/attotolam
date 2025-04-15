@@ -1,0 +1,54 @@
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.burger-nav {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ff9149;
+  z-index: 1000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.slide-in {
+  animation: slide-in 0.3s ease-out forwards;
+}
+
+.slide-out {
+  animation: slide-out 0.3s ease-in forwards;
+}
+
+.burger-close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: aliceblue;
+}
+
+.burger-nav button {
+  font-size: 2rem;
+  color: aliceblue;
+  font-weight: 600;
+}
