@@ -1,4 +1,4 @@
-import "../../styles/Navbar.css";
+import "../../styles/navbar.css";
 import Logo from "../../assets/logo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState, useEffect } from "react";
