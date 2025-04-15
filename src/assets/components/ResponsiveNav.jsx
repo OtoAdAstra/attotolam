@@ -1,5 +1,7 @@
+import "../../styles/responsive-nav.css";
+
 const ResponsiveNav = () => {
-  return <div>ResponsiveNav</div>;
+  return <nav className="burger-nav"></nav>;
 };
 
 export default ResponsiveNav;
