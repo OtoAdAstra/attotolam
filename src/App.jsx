@@ -1,4 +1,4 @@
-import "./styles/App.css";
+import "./styles/app.css";
 import Navbar from "./assets/components/Navbar";
 import Welcome from "./assets/components/Welcome";
 import Aboutus from "./assets/components/Aboutus";
