@@ -1,0 +1,22 @@
+.welcome-div {
+  background-color: #ffecdb;
+  height: 70vh;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 93%, 0 100%);
+  padding: 10vh 0;
+  text-align: center;
+}
+
+.welcome-div h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ff9149;
+  margin-top: 20px;
+}
+
+.welcome-div h5 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ff9149;
+  margin-top: 40px;
+}

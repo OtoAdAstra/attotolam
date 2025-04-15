@@ -1,11 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=M+PLUS+Rounded+1c&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-size: 16px;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.3s ease;
+  scroll-behavior: smooth;
+  font-size: 18px;
 }
 
 p {
@@ -22,7 +26,6 @@ button {
   cursor: pointer;
   border: none;
   background-color: transparent;
-  font-family: inherit;
 }
 
 ul,
