@@ -13,7 +13,7 @@ function App() {
       <Aboutus />
       <Services />
       <Contact />
-      <footer>copyright © 2024 all rights reserved</footer>
+      <footer>copyright © 2025 all rights reserved</footer>
     </div>
   );
 }
